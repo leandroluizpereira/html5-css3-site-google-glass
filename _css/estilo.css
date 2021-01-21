@@ -21,11 +21,28 @@ div#interface{
 header#cabecalho img#icone{
     position: absolute;
     left: 960px;
-    top:50px;
+    top:70px;
+   
 }
 
 header#cabecalho{
-    
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+    padding: 0px;
+
+}
+header#cabecalho h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    font-size: 15px;
+    padding: 0px;
+}
+header#cabecalho h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color:#606060;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
 }
 
 /* Formataçâo de imagens com legendas     */
@@ -67,7 +84,7 @@ figure.foto-legenda{
         text-transform: uppercase;
         position: absolute;
         top:-20px;
-        left:300px;
+        left:400px;
       
 
     }
