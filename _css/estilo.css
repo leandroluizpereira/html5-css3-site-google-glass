@@ -136,7 +136,34 @@ table#tabelaspec td{
     padding: 10px;
     text-align: center;
    
+}
+
+table#tabelaspec td.ce {
+    color: white;
+    background-color: #606060;
    
+    font-weight: bold;
+
+}
+table#tabelaspec td.cd {
+    color: white;
+    background-color: #858181;
+    
+}
+table#tabelaspec caption{
+    color:888888;
+    font-size: 13pt;
+    font-weight: bold;
+
+}
+
+table#tabelaspec caption span {
+    display:block;
+    float: right;
+    color: black;
+    font-size: 8px;
+    margin-top: 10px;
+
 }
 aside#lateral {
     display :block;
@@ -151,4 +178,5 @@ footer#rodape{
 footer#rodape p {
     text-align: center;
 }
+
 
