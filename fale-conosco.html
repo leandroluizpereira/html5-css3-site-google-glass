@@ -47,7 +47,7 @@
 
 
 
-<form action="">
+<form method="GET">
     <fieldset id="usuario">
         <legend>
             Identificação do Usuário
@@ -69,28 +69,30 @@
             Endereço do Usuário
         </legend>
     	    <p><label for="cRua">Logradouro:</label> <input type="text" name="tRua" id="cRua" size="13" maxlength="80" placeholder="Rua,Av,Trav"></p>
-    	    <p> <label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
-    	    <p>Estado:</p>
-    	    <p>Cidade:</p>
+            <p> <label for="cNum">Número:</label> <input type="number" name="tNum" id="cNum" min="0" max="99999"></p>
+            
+
+
+
+    	    <p><label for="cEst">Estado:</label></p>
+    	    <p><label for="cCid">Cidade:</label></p>
     </fieldset>
     
     <fieldset id="mensagem">
-    	<legend>
-            Mensagem do Usuário
-        </legend>
-    	    Grau de Urgência:
-    	    Mensagem:
+    	<legend>  Mensagem do Usuário </legend>
+    	    <label for="cUrg">Grau de Urgência:</label>
+    	    <label for="cMsg">Mensagem:</label>
     </fieldset>
     
     <fieldset id="pedido">
     	<legend>
             Quero um Google Glass
         </legend>
-    	    Gostaria de adquirir um Google Glass quando disponível
-    	    Cor:
-    	    Quantidade:
-    	    Preço Total: R$
-    	
+    	    <p><label for="cPed">Gostaria de adquirir um Google Glass quando 
+            disponível</label></p>
+    	    <p><label for="cCor">Cor:</label></p>
+    	    <p><label for="cQtd">Quantidade:</label></p>
+    	    <p> <label for="cTol">Preço Total: R$</label> </p>
     </fieldset>
     
     [BOTÃO ENVIAR]
