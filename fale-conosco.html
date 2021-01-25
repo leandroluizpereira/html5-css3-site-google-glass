@@ -75,15 +75,25 @@
 
 
             <p><label for="cEst">Estado:</label> <select name="tEst" id="cEst">
-
-                <option> Rio de janeiro</option>
-                <option>Sâo Paulo</option>
-                <option>Minas Gerais</option>
-                <option>Paraná</option>
-                <option>Rio grande do Sul</option>
+<optgroup label="Regiâo Sudeste">
+    
+                    <option value="RJ"> Rio de janeiro</option>
+                    <option value="SP"selected>Sâo Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+</optgroup>
+    <optgroup label="Regiâo Sul">
+                    <option value="PR">Paraná </option>
+                    <option value="RS">Rio grande do Sul</option>
+    </optgroup>
             </select>
             </p>
-    	    <p><label for="cCid">Cidade:</label> </p>
+            <p><label for="cCid">Cidade:</label> <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"></p>
+            <datalist id="cidades">
+                <option value="Rio de Janeiro"></option>
+                <option value="Nova Iguaçu"></option>
+                <option value="Niterói"></option>
+                <option value="Belford Roxo"></option>
+            </datalist>
     </fieldset>
     
     <fieldset id="mensagem">
