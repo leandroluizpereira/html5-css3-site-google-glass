@@ -47,7 +47,7 @@
 
 
 
-<form method="GET">
+<form method="GET" id="fContato" action="mailto:leandro.2306llp@gmail.com"> <!--use o post de vez o get  para  quando  for para mais segurança por exemplo informações de cartâo de crédito-->
     <fieldset id="usuario">
         <legend>
             Identificação do Usuário
@@ -74,8 +74,16 @@
 
 
 
-    	    <p><label for="cEst">Estado:</label></p>
-    	    <p><label for="cCid">Cidade:</label></p>
+            <p><label for="cEst">Estado:</label> <select name="tEst" id="cEst">
+
+                <option> Rio de janeiro</option>
+                <option>Sâo Paulo</option>
+                <option>Minas Gerais</option>
+                <option>Paraná</option>
+                <option>Rio grande do Sul</option>
+            </select>
+            </p>
+    	    <p><label for="cCid">Cidade:</label> </p>
     </fieldset>
     
     <fieldset id="mensagem">
