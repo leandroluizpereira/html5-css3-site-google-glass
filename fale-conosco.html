@@ -7,6 +7,14 @@
         <link rel="stylesheet" href="_css/estilo.css">
         <link rel="stylesheet" href="_css/form.css">
         <script src="_javascript/funcoes.js"></script>
+        <script>
+            function calc_total(){
+                var qtd= parseInt(document.getElementById('cQtd').value);
+                tot = qtd *1500;
+                document.getElementById('cTot').value =tot;
+
+            }
+        </script>
     </header>
     
     <body >
@@ -47,7 +55,7 @@
 
 
 
-<form method="GET" id="fContato" action="mailto:leandro.2306llp@gmail.com"> <!--use o post de vez o get  para  quando  for para mais segurança por exemplo informações de cartâo de crédito-->
+<form method="GET" id="fContato" action="mailto:leandro.2306llp@gmail.com" oninput="calc_total();"> <!--use o post de vez o get  para  quando  for para mais segurança por exemplo informações de cartâo de crédito-->
     <fieldset id="usuario">
         <legend>
             Identificação do Usuário
@@ -107,14 +115,16 @@
     	<legend>
             Quero um Google Glass
         </legend>
-    	    <p><label for="cPed">Gostaria de adquirir um Google Glass quando 
+    	    <p> <input type="checkbox" name="tPed" id="cPed" checked>
+                <label for="cPed">Gostaria de adquirir um Google Glass quando 
             disponível</label></p>
-    	    <p><label for="cCor">Cor:</label></p>
-    	    <p><label for="cQtd">Quantidade:</label></p>
-    	    <p> <label for="cTol">Preço Total: R$</label> </p>
+    	    <p><label for="cCor">Cor:</label> <input type="color" name="tCor" id="cCor" value="#0000ff"></p>
+    	    <p><label for="cQtd">Quantidade:</label> <input type="number" name="tQtd" id="cQtd" min="0" max="5"></p>
+    	    <p> <label for="cTot">Preço Total: R$</label> <input type="text" name="tTot" id="cTot" placeholder="total a pagar"randonly>  </p>
     </fieldset>
     
-    [BOTÃO ENVIAR]
+    
+    <input type="image" name="tEnviar" src="_imagens/botao-enviar.png">
 </form>
 
 <footer id="rodape">
