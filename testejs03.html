@@ -8,17 +8,17 @@
         var quebrada=false;
         function mudaLampada(tipo){
                 if (tipo == 1){
-                        arquivo="static/_imagens/lampada-acesa.jpg";
+                        arquivo="static/imagens/lampada-acesa.jpg";
                 }
                 if (tipo == 2){
-                    arquivo="static/_imagens/lampada-apagada.jpg";
+                    arquivo="static/imagens/lampada-apagada.jpg";
                 }
                 if (tipo == 3){
-                    arquivo="static/_imagens/lampada-quebrada.jpg";
+                    arquivo="static/imagens/lampada-quebrada.jpg";
                 
                 }
             if(!quebrada){
-            document.getElementById("luz").src="static/_imagens/"+tipo+".jpg";
+            document.getElementById("luz").src="static/imagens/"+tipo+".jpg";
                 if (tipo=='lampada-quebrada'){
                     quebrada = true;
                 }
@@ -29,7 +29,7 @@
     </script>
 </head>
 <body>
-    <img src="static/_imagens/lampada-apagada.jpg "id ="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')"/>
+    <img src="static/imagens/lampada-apagada.jpg "id ="luz" onmousemove="mudaLampada('lampada-acesa')" onmouseout="mudaLampada('lampada-apagada')" onclick="mudaLampada('lampada-quebrada')"/>
     
 </body>
 </html>
