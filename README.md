@@ -1,4 +1,4 @@
-# aprendendo a construir site com base do ensino de Gustavo Guanabara do curso em video
+# Aprendendo a construir sites com base do ensino de Gustavo Guanabara do curso em video
 
 ## Site Google Glass
 
