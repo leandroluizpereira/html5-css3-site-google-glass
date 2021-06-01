@@ -1,5 +1,5 @@
-# html5-css3-site-google-glass
- construindo um site usando  as ferramentas html css e javascripts com ensino de Gustavo Guanabara do curso em video
+# html5-css3-site-google-glass  com ensino de Gustavo Guanabara do curso em video
+
  
  # Acesso ao site :
  
