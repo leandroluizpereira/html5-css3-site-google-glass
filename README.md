@@ -3,4 +3,4 @@
  
  #Acesso ao site :
  
- [](https://leandroluizpereira.github.io/site-google-glass/)
+ [https://leandroluizpereira.github.io/site-google-glass/](https://leandroluizpereira.github.io/site-google-glass/)
