@@ -1,6 +1,9 @@
 # site google glass com ensino de Gustavo Guanabara do curso em video
 
- [x] - Versão - desktop 
+
+
+ * -[x]  Versão - desktop 
+ 
  
  ## Acesso ao site :
  
